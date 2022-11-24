@@ -31,6 +31,11 @@
   font-family: "work sans", sans-serif;
   
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
  
  
@@ -95,6 +100,10 @@ header {
   color: var(--white);
 }
 
+.image-profiles {
+  border-radius: 10px;
+}
+
 /* INCIO DA PRIMEIRA SECTION*/
 
 .home {
@@ -112,6 +121,7 @@ header {
   align-items: center;
   padding: 2rem;
   gap: 3.78rem;
+  margin-left: 3rem;
 }
 
 .context-left {
@@ -126,6 +136,8 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  border-radius: 10px;
+
 }
 
 .text-1 {
@@ -169,7 +181,7 @@ header {
   width: 100%;
   display: flex;
   padding-top: 7rem;
-
+ 
 }
 
 .inicial-text2 {
@@ -178,6 +190,7 @@ header {
   flex-direction: column;
   gap: 12px; 
   padding-top: 4rem; 
+  margin-left: 3rem;
 }
 
 
@@ -193,6 +206,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  
 }
 
 .say-hello2 {
@@ -206,6 +220,7 @@ header {
   background-color: var(--white);
   border: 1px solid var(--purple-500);
   color: var(--purple-500);
+  border-radius: 4px;
 }
 
 .say-hello3:hover {
@@ -221,6 +236,7 @@ header {
   margin-top: -2rem;
   padding: 1rem 3rem;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .linkedin {
@@ -229,3 +245,29 @@ header {
   padding: 0.5rem 0.5rem;
 }
 
+/* PROCESS */
+
+.home3 {
+  width: 100%;
+  display: flex;
+  padding-top: 7rem;
+}
+
+
+.text-3 {
+  width: 100%;
+  display: block;
+  font-size: 2.5rem;
+}
+
+.frames {
+  width: 50%;
+  
+  flex-direction: column;
+ 
+}
+
+.framecolor{
+  background-color: var(--purple-100);
+  
+}
