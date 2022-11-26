@@ -344,3 +344,50 @@ h1 {
   font-size: 10px;
   line-height: 24px;
 }
+
+/* PORTFOLIO */
+
+.home4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10.8rem;
+  margin-top: 4.875rem;
+  gap: 8.5rem;
+}
+
+.verde{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.amarela{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.azul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+  
+}
+
+.preta {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  
+}
+
+.square-image{
+  width: 200px;
+  
+
+  
+}
+
