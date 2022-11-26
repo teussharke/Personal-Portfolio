@@ -29,26 +29,21 @@
   list-style: none;
   text-decoration: none;
   font-family: "work sans", sans-serif;
-  
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
- 
- 
-  
 }
 header {
   display: flex;
-  
+
   padding: 0 10.8rem;
   background: var(--white);
   position: fixed;
   width: 100%;
- 
 }
 
 .logo {
@@ -59,7 +54,7 @@ header {
 
 .logoName {
   font-weight: 600;
-  
+  color: #132238;
 }
 
 .navigation {
@@ -67,22 +62,19 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  
-  
 }
 .navigation .logo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
- 
 
   width: 40px;
   height: 56px;
 }
 .navigation ul {
   display: flex;
- 
+
   gap: 24px;
 }
 .navigation ul li a {
@@ -101,7 +93,6 @@ header {
   font-size: 16px;
   font-weight: 500;
   padding: 0.5rem 0.9rem;
-  
 }
 
 .say-hello {
@@ -125,7 +116,7 @@ header {
   padding: 0 10.8rem;
   background: url(assets/elipse1.svg);
   padding-top: 7.875rem;
-  
+  gap: 3.8rem;
 }
 
 .inicial-text {
@@ -133,27 +124,29 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  gap: 3.78rem;
- 
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+
+  gap: 1.5rem;
 }
 
 .context-left {
   display: flex;
   flex-direction: column;
-  gap: 1.3rem;
-  margin-top: 4.125rem;
+  gap: 0.1rem;
+  margin-top: 1.125rem;
 }
-
 
 .image-profile {
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  border-radius: 10px;
 
+  border-radius: 10px;
 }
 
 .text-1 {
@@ -161,55 +154,76 @@ header {
   display: block;
   font-size: 2.5rem;
 }
+.nome {
+  color: #132238;
+}
 
 .inicial-text p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12.6px;
   line-height: 24px;
+
+  color: #556070;
 }
 
 .button-container {
   width: 100%;
+  
 }
 
 .frame1 {
   width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 12px;
 }
 
 .frame2 {
   background: var(--purple-100);
-  width: calc((100% / 3) - 0.33rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0 2.3rem;
+  
 }
 
+.title-frame {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+span {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 /* Section 2  */
 
 .home2 {
   width: 100%;
   display: flex;
   padding: 0 10.8rem;
-  
- 
 }
 
 .inicial-text2 {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 12px; 
-  padding-top: 4rem; 
-  
+  gap: 12px;
+  padding-top: 4rem;
 }
-
 
 .text-2 {
   width: 100%;
@@ -223,13 +237,11 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  
 }
 
 .say-hello2 {
   display: flex;
   gap: 1.5rem;
-  
 }
 
 .say-hello3 {
@@ -245,7 +257,7 @@ header {
   color: var(--white);
 }
 
-.icons{
+.icons {
   display: flex;
   height: 70px;
   gap: 2rem;
@@ -267,38 +279,33 @@ header {
 .home3 {
   width: 100%;
   display: flex;
-  padding: 0 10.8rem;;
+  padding: 0 10.8rem;
 }
-
 
 .text-3 {
   padding-top: 5rem;
   width: 50%;
   display: block;
   font-size: 18px;
-
 }
 
 .frames {
- display: flex;
+  display: flex;
   width: 50%;
-
- 
 }
 
-.framecolor{
+.framecolor {
   background-color: var(--purple-100);
-  
 }
 
 .table {
-display: flex;
-flex-direction: column;
-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .table2 {
   display: flex;
-flex-direction: column;
-gap: 1rem;
+  flex-direction: column;
+  gap: 1rem;
 }
