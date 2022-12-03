@@ -679,7 +679,7 @@ h6 {
   color: var(--white);
 }
 
-.what1{
+.what1 {
   background: #ffffff;
   border-radius: 6px;
 
@@ -772,25 +772,25 @@ h6 {
   height: 48px;
 }
 
-.paragraph2-testimonial{
+.paragraph2-testimonial {
   width: 872px;
-height: 96px;
+  height: 96px;
 
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* or 133% */
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
 
-text-align: center;
+  text-align: center;
 
-/* Gray/800 */
+  /* Gray/800 */
 
-color: #2B384C;
+  color: #2b384c;
 }
 
-.paragraph3-testimonial{
+.paragraph3-testimonial {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -799,5 +799,53 @@ color: #2B384C;
 .home10 {
   width: 100%;
   padding: 0 10.8rem;
-  padding-top: 4.875rem;
+  padding-top: 8.875rem;
+  display: flex;
+
+ 
+}
+
+.formulario {
+display: flex;
+flex-direction: column;
+gap: 2.188rem;
+ 
+  
+}
+
+.adress {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.563rem;
+
+  background: #ffffff;
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+  border-radius: 10px;
+  width: 20rem;
+}
+
+.table-adress{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  margin-left: 1.5rem;
+}
+
+.content-form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+
+  background: #ffffff;
+  box-shadow: 0px 59px 124px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+}
+
+.icons-form{
+  display: flex;
+  flex-direction: row;
+  gap: 3.0rem;
+  margin-left: 0.9rem;
 }
