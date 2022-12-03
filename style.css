@@ -882,26 +882,29 @@ input {
   border-bottom: 1px solid #87909d;
 }
 
-input[type="submit"] {
+.btn-submit[type="submit"] {
   padding: 12px 24px;
   gap: 12px;
 
   width: 141px;
   height: 48px;
 
-  /* Primary/500 */
+  border: none;
 
   background: #a53dff;
   color: #fff;
 
   border-radius: 4px;
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
 }
 
 .setinha {
   width: 24px;
   height: 24px;
 
-  margin-left: 6.8rem;
+  
   
 }
