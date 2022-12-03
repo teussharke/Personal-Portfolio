@@ -274,7 +274,7 @@ h1 {
 
 .say-hello3:hover {
   background-color: var(--purple-500);
-  color: var(--white);
+  color: #fff;
 }
 
 .icons {
@@ -679,14 +679,16 @@ h6 {
   color: var(--white);
 }
 
-.what1,
-.what2,
-.what3 {
+.what1{
   background: #ffffff;
   border-radius: 6px;
 
   padding: 1rem 2rem;
   width: 30rem;
+}
+
+.what1:hover {
+  border-left: 6px solid purple;
 }
 
 .home8 {
