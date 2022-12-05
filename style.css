@@ -986,7 +986,12 @@ nav ul li a {
   color: var(--white);
 }
 
-.budget {
+.Budget {
   display: flex;
   gap: 2rem;
+}
+
+.sub-hv{
+  padding: 0.5rem;
+  
 }
